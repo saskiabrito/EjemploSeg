@@ -1,0 +1,14 @@
+{
+    "agents": [
+        "antigravity"
+    ],
+    "cloud": false,
+    "skills": [
+        "infer-conventions",
+        "fortify-development",
+        "laravel-best-practices",
+        "testing-best-practices",
+        "inertia-react-development",
+        "tailwindcss-development"
+    ]
+}

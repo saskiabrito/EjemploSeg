@@ -16,4 +16,7 @@ Route::middleware(['auth'])->group(function () {
 
     Route::get('/usuarios', [UserController::class, 'index'])
         ->name('usuarios.index');
+        
+    Route::get('/dashboard', [DashboardController::class, 'index'])
+        ->name('dashboard');
 });

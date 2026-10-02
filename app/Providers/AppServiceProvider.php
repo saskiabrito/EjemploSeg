@@ -22,7 +22,6 @@ class AppServiceProvider extends ServiceProvider
     public function boot(): void
     {
         Fortify::loginView(fn ()=> view('auth.login'));
-        Fortify::registerView(fn() =>('auth.register'));
-
+        Fortify::registerView(fn() => view('auth.register'));
     }
 }

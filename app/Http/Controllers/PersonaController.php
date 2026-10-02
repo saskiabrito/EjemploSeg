@@ -1,6 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
+use App\Models\Interes;
 
 use App\Models\Persona;
 use Illuminate\Http\Request;
@@ -20,7 +21,7 @@ class PersonaController extends Controller
      */
     public function create()
     {
-        $interes = Interes::all();
+        $intereses = Interes::all();
         return view('personas.create', compact('intereses'));  
     }
 
